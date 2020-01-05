@@ -7,10 +7,11 @@ public class FibonacciSeries {
 		int firstnum =0;
 		int secnum = 1;
 		for(int i = 1; i <= range ; i++ ) {
-			System.out.println(firstnum);
+			
 		int sum = firstnum + secnum ;
 		firstnum = secnum;
 		secnum = sum;
+		System.out.println(firstnum);
 	}
 	}
 
