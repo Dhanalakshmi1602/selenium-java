@@ -32,8 +32,8 @@ public class Project {
 		driver.findElementById("vendorName").sendKeys("Blue Lagoon");
 		driver.findElementById("buttonSearch").click();
 		
-		//String country = driver.findElementByXPath("(//table[@class='table']//td)[5]").getText();
-
+		String country = driver.findElementByXPath("(//table[@class='table']//td)[5]").getText();
+/*
 		String columnToFind = "Country";
 		
 		WebElement table = driver.findElementByXPath("//table[@class='table']");
@@ -70,20 +70,7 @@ public class Project {
 			System.out.println("Country column not found");
 		}
 			
-		
-		
-		
-		
-		
-		
-		
-	
-		
-		
-		
-		
-		
-
+*/	
 	}
 
 }
